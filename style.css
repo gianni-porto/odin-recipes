@@ -1,9 +1,14 @@
 body{background: #faebd7;padding: 0;margin: 0;font-family: georgia,serif;}
 
+hr{width: 45%;height: 5px;margin: 150px auto;background: #18171c;border-radius: 50%}
+img{height: auto;width: 450px;max-width: 100%;border: 5px solid #d3cbdf;transform: translateX(50%);transform: rotate(-15deg);margin-left: 75px;}
+
 a{text-decoration: none;font-size: 20px;color:inherit;}
 h1{font-size: 56px;text-align: center;background: #e4e5e0; padding: 10px 25px;max-width: 450px;margin: 50px auto;color: #18171c;}
+p{line-height: 25px;letter-spacing: 1px;font-size: 18px;}
 
-
+.btn{display: inline-block;margin: 65px 0 0 45px;background: #050402;color:#eae6ca;padding:15px 25px;border:2px solid #050402;border-radius: 5px;}
+.btn:hover{background: transparent;color:#050402;border:2px solid #050402;}
 
 
 
