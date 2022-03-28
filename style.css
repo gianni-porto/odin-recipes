@@ -1,10 +1,12 @@
 body{background: #faebd7;padding: 0;margin: 0;font-family: georgia,serif;}
 
 hr{width: 45%;height: 5px;margin: 150px auto;background: #18171c;border-radius: 50%}
-img{height: auto;width: 450px;max-width: 100%;border: 5px solid #d3cbdf;transform: translateX(50%);transform: rotate(-15deg);margin-left: 75px;}
+img{height: auto;width: 450px;max-width: 100%;border: 5px solid #d3cbdf;margin-left: 25%;}
 
 a{text-decoration: none;font-size: 20px;color:inherit;}
 h1{font-size: 56px;text-align: center;background: #e4e5e0; padding: 10px 25px;max-width: 450px;margin: 50px auto;color: #18171c;}
+h2{font-size: 42px;}
+h3{font-size: 32px;}
 p{line-height: 25px;letter-spacing: 1px;font-size: 18px;}
 
 .btn{display: inline-block;margin: 65px 0 0 45px;background: #050402;color:#eae6ca;padding:15px 25px;border:2px solid #050402;border-radius: 5px;}
@@ -15,3 +17,13 @@ p{line-height: 25px;letter-spacing: 1px;font-size: 18px;}
 #recipes-list{list-style-type: none;max-width: 450px;background: #e3ddce;margin: 0 auto;}
 #recipes-list li{padding: 45px 0;border-bottom: 2px solid #474541;margin: 0 15px;color:#310062}
 #recipes-list li a:hover{color:#000080;}
+
+.desc,
+.ing,
+.steps{background: #050402;color:#FAEBD7;text-align: center;margin: 25px;padding: 25px 35px;}
+
+.ing ul{list-style-type: circle;text-align: justify;}
+.ing ul li,
+.steps ol li{border-bottom: 1px solid #FAEBD7;padding: 15px 0 5px 0;line-height: 25px;}
+
+.steps ol{list-style-type: upper-alpha;text-align: justify;}
